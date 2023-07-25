@@ -107,7 +107,7 @@ void printWordle(std::vector<std::string> tries, std::vector<std::vector<int>> m
         }
         if (i == 0)
         { 
-            std::cout << separator << std::endl;
+            std::cou t << separator << std::endl;
         }
         std::cout << padding << std::endl;
         std::cout << text << std::endl;
