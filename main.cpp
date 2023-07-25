@@ -147,7 +147,6 @@ int main(int, char **)
     if (isAllMatch(targetWord, input))
     {
         std::cout << "Found the word" << std::endl;
-        break;
     }
     else if (currentTry == numberOfTries)
     {
