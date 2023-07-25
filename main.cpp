@@ -131,7 +131,7 @@ int main()
     std::string input;
     int currentGuessCount = 0;
 
-    printWordle(matches, guesses, currentGuessCount);
+    printWordle(matches, guesses, -1);
 
 
     while (currentGuessCount , NUMBER_OF_GUESSES)
