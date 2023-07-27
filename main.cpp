@@ -55,6 +55,14 @@ string getRandomWord(int length) {
 }
 
 int main() {
+    cout<<"--------------------------------\n";
+    cout<<"    J  OOO  TTTTTT TTTTTT  OOO  \n";
+    cout<<"    J O   O   TT     TT   O   O \n";
+    cout<<"    J O   O   TT     TT   O   O \n";
+    cout<<"J   J O   O   TT     TT   O   O \n";
+    cout<<" JJJ   OOO    TT     TT    OOO  \n";
+    cout<<"--------------------------------\n";
+
     cout << "Welcome to Jotto!\n";
     cout << "How to Play:\n";
     cout << "In this game, you will try to guess a word with varying number of letters, and limited attempts, based on the difficulty level.\n";
@@ -97,8 +105,6 @@ int main() {
     // Get the random word of the specified length for the player to guess
     string targetWord = getRandomWord(wordLength);
     
-    cout << "Target word: " << targetWord << endl; //Debugger
-
     // Main game loop
     for (int ctr = 1; ctr <= attemptsLeft; ctr++) {
         string guess;
