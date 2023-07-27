@@ -58,7 +58,7 @@ int main() {
     cout << "Welcome to Jotto!\n";
     cout << "How to Play:\n";
     cout << "In this game, you will try to guess a word with varying number of letters, and limited attempts, based on the difficulty level.\n";
-    cout << "In solving for the word, you will encounter special characters, such as ? and *, the question mark implies that the letter used is correct, but placed in a wrong position, while the asterick means that the letter is not included in the word at all.\n";
+    cout << "In solving for the word, you will encounter special characters, such as ? and *, the ? means that the letter used is correct, but placed in a wrong position, while the * means that the letter is not included in the word at all.\n";
     cout << "The game will end once you have guess the correct word, or you have used all your attempts, and yet failed to solve the word.\n";
     cout << "Choose the difficulty level:\n";
     cout << "1 - Easy (3-letter word, 8 attempts)\n";
