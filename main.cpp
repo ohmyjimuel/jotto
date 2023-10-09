@@ -74,6 +74,7 @@ int main() {
     cout << "2 - Medium (4-letter word, 6 attempts)\n";
     cout << "3 - Hard (5-letter word, 4 attempts)\n";
     cout << "Enter the difficulty: ";
+    cout << "Enter the difficulty: ";
 
     int difficulty;
     cin >> difficulty;
